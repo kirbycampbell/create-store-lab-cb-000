@@ -4,7 +4,8 @@ class UserInput extends Component {
   render() {
     return(
       <div>
-        user input
+        <button onClick={this.handleOnClick}>Click</button>
+        <p>{this.props.items.length}</p>
       </div>
     );
   }
