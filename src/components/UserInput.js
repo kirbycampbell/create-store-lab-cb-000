@@ -12,7 +12,7 @@ class UserInput extends Component {
 
   handleChange(event) {
     this.setState({
-      [event.target.name]: event.target.value;
+      [event.target.name]: event.target.value
     });
   }
 
